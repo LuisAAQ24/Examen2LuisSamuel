@@ -71,5 +71,7 @@ public class Calculadora {
                 throw new IllegalArgumentException("Base de destino no soportada");
         }
     }
-
+    public static boolean Encuentra(List<Integer> lista, int elemento) {
+        return lista.contains(elemento); // Devuelve true si el elemento está en la lista, false si no
+    }
 }
