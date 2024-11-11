@@ -3,6 +3,9 @@ package com.example.examen2;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class CalculadoraTest {
 
 
@@ -38,6 +41,13 @@ public class CalculadoraTest {
     public void testConvertirADestinoHexadecimal() {
         assertEquals("a", Calculadora.convertirADestino(10, 3)); // Caso base: 10 en decimal es a en hexadecimal
     }
+    @Test
+    public void testEncuentraElementoPresente() {
+        // Crear una lista de números enteros
+        List<Integer> lista = Arrays.asList(1, 2, 3, 4, 5);
 
+        // Comprobar si el elemento 3 está en la lista
+        assertTrue(Calculadora.Encuentra(lista, 3)); // Debería devolver true
+    }
 }
 
