@@ -72,4 +72,9 @@ public class Calculadora {
         }
     }
 
+    // Método Encuentra: verifica si un elemento está en la lista
+    public static boolean Encuentra(List<Integer> lista, int elemento) {
+        return lista.contains(elemento); // Devuelve true si el elemento está en la lista, false si no
+    }
+
 }
