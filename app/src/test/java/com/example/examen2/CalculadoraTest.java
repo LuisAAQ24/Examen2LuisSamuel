@@ -47,7 +47,7 @@ public class CalculadoraTest {
         List<Integer> lista = Arrays.asList(1, 2, 3, 4, 5);
 
         // Comprobar si el elemento 3 está en la lista
-        assertTrue(Calculadora.Encuentra(lista, 3)); // Debería devolver true
+        assertTrue(Calculadora.Encuentra(lista, 4)); // Debería devolver true
     }
 }
 
